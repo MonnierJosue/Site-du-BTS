@@ -3,47 +3,73 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Accueil Section BTS SN</title>
-		<link rel="stylesheet" media="screen" type="text/css" href="CSS/site.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	</head>	
 
+	<body  class="position-relative">	
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<img class="img-fluid" src="Images/Logo-Lycée.png"  alt="monLogo">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Accueil</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Pages/Planning.html">Planning</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Pages/Localisation.html">Localisation</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Pages/Contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
 
-	<header>
-		<div class="Image">
+		<div class="container mt-3">
+
+			<h2 class="text-center">Bienvenue sur le site de la section SN du lycée Raymond Queneau d'Yvetot !</h2>
+			<div class="text-center mt-5">
+				<p>Bienvenue sur le site internet de la section BTS SN (système numérique) du lycée Raymond Queneau d'Yvetot. </p>
+				<p>Ce site a pour but de vous renseigner sur la section, le matériel, les horaires, etc. Il a été crée dans un but éducatif pour familiariser les élèves de la section à la création de sites web</p>
+			</div>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			
+			  <ul class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			  </ul>
+			  
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="Images/Lycée1.jpg" alt="Photo du lycée1" width="1100" height="500">
+				</div>
+				<div class="carousel-item">
+				  <img src="Images/Lycée2.jpg" alt="Photo du lycée2" width="1100" height="500">
+				</div>
+				<div class="carousel-item">
+				  <img src="Images/Lycée3.jpg" alt="Photo du lycée3" width="1100" height="500">
+				</div>
+			  </div>
+			  
+			  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			  </a>
+			</div>
 		</div>
-	</header>
 
-	<body>
-
-		<div id="corps">
-				<a href="index.html"><img src="Images/Accueil2.png" class="boutonMenu" alt="accueil" /></a>
-				<a href="Pages/Presentation.html"><img src="Images/Presentation1.png" class="boutonMenu" alt="Présentation" onmouseover="this.src='Images/Presentation2.png'" onmouseout="this.src='Images/Presentation1.png'" /></a>
-				<a href="Pages/CadreDeVie.html"><img src="Images/CadreDeVie1.png" class="boutonMenu" alt="Cadre de Vie" onmouseover="this.src='Images/CadreDeVie2.png'" onmouseout="this.src='Images/CadreDeVie1.png'"/></a>
-				<a href="Pages/1erAnnee.html"><img src="Images/1erAnnee1.png" class="boutonMenu" alt="1ère Année" onmouseover="this.src='Images/1erAnnee2.png'" onmouseout="this.src='Images/1erAnnee1.png'"/></a>
-				<a href="Pages/2ndAnnee.html"><img src="Images/2ndAnnee1.png" class="boutonMenu" alt="2ème Année" onmouseover="this.src='Images/2ndAnnee2.png'" onmouseout="this.src='Images/2ndAnnee1.png'"/></a>
-				<a href="Pages/Localisation.html"><img src="Images/Localisation1.png" class="boutonMenu" alt="Localisation" onmouseover="this.src='Images/Localisation2.png'" onmouseout="this.src='Images/Localisation1.png'"/></a>
-				<a href="Pages/NousJoindre.html"><img src="Images/NousJoindre1.png" class="boutonMenu" alt="Nous Contacter" onmouseover="this.src='Images/NousJoindre2.png'" onmouseout="this.src='Images/NousJoindre1.png'"/></a>
-		<br />
-		<br />
-		<h2><img src="Images/puce.png" class="lower" height="20" alt="monLogo"> Le site de la section SN du lyc&eacute;e Raymond Queneau d'Yvetot!</h2>
-		<p>Bienvenue sur le site internet de la section BTS SN (système numérique) du lyc&eacute;e Raymond Queneau d'Yvetot. 
-		<br />
-			Ce site a pour but de vous renseigner sur la section, le mat&eacute;riel, les horaires, etc. 
-			Il a &eacute;t&eacute; cr&eacute;e  dans un but &eacute;ducatif pour familiariser les &eacute;l&egrave;ves de la section &agrave; la cr&eacute;ation de sites web.
-		</p>
-		<p class="info">
-		</p>	
-		</div>	
-
-		<div id="Pied_de_Page">
-		<p><span class="textepiedpage"><a href="http://www.ac-rouen.fr/">Site rectorat</a> - <a href="http://lycees.ac-rouen.fr/queneau"> Site Lycée Raymond Queneau</a> - <a href="http://www.bts-sn-yvetot.fr/">Section BTS SN</a> - 2018</span></p>
-		<p>
-    		<a href="https://jigsaw.w3.org/css-validator/check/referer">
-				<img style="border:0;width:88px;height:31px"
-				src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-				alt="CSS Valide !" />
-			</a>
-		</p>
-		</div>	
+		<footer class="bg-dark text-center text-lg-start fixed-bottom">
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+			  <a class="text-white" href="https://www.ac-normandie.fr/">Site du rectorat -</a>
+			  <a class="text-white" href="http://queneau-lyc.spip.ac-rouen.fr/">Site du Lycée Raymond Queneau</a>
+			</div>
+		</footer>
+		  
 	</body>	
 </html>
